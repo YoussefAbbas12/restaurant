@@ -1,0 +1,31 @@
+packages:
+  "framer-motion": "For premium smooth scroll animations and page transitions"
+  "react-hook-form": "For robust reservation form state management"
+  "@hookform/resolvers": "For zod validation with react-hook-form"
+  "zod": "For reservation form validation schema"
+  "date-fns": "For date formatting in reservation form"
+
+images:
+  - path: "artifacts/egyptian-restaurant/public/images/hero-bg.png"
+    description: "Dark atmospheric Egyptian feast background, candlelight, elegant Middle Eastern mezze spread on dark stone table, highly detailed, photorealistic, premium luxury fine dining mood"
+    aspect_ratio: "16:9"
+  - path: "artifacts/egyptian-restaurant/public/images/about-img.png"
+    description: "Artistic food photography of fine dining Egyptian cuisine, dark mood, warm lighting, elegant plating with gold accents, Michelin star style presentation"
+    aspect_ratio: "3:4"
+  - path: "artifacts/egyptian-restaurant/public/images/koshary.png"
+    description: "Gourmet elevated Koshary dish, crispy onions, elegant plating, dark background, cinematic lighting, food photography"
+    aspect_ratio: "1:1"
+  - path: "artifacts/egyptian-restaurant/public/images/fattah.png"
+    description: "Fine dining Egyptian Fattah dish, slow-braised lamb, saffron rice, elegant plate, dark moody lighting, cinematic food photography"
+    aspect_ratio: "1:1"
+  - path: "artifacts/egyptian-restaurant/public/images/molokheya.png"
+    description: "Silky green Molokheya soup in a decorative gold-rimmed bowl, dark background, dramatic lighting, warm ambiance"
+    aspect_ratio: "1:1"
+  - path: "artifacts/egyptian-restaurant/public/images/umm-ali.png"
+    description: "Gourmet Umm Ali dessert, warm bread pudding with cream and pistachios, elegant presentation, candlelight, dark luxury background"
+    aspect_ratio: "1:1"
+
+notes:
+  - This is a frontend-only application
+  - Reservation form submissions are mocked via a fake TanStack Query mutation
+  - The application is locked to dark mode to maintain the upscale atmospheric aesthetic
